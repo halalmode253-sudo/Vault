@@ -82,8 +82,8 @@ def frontend():
             f"📂 View saved accounts anytime\n"
             f"⚡ Fast & simple experience\n\n"
             f"*Commands*\n"
-            f"`/help` → Usage guide\n"
-            f"`/dashboard` → View saved accounts"
+            f"/help → Usage guide\n"
+            f"/dashboard → View saved accounts"
         )
 
         reply_message(chat_id, reply)
@@ -99,9 +99,9 @@ def frontend():
             "*Example:*\n"
             "`Male John john@gmail.com 1234`\n\n"
             "*Commands*\n"
-            "`/start` → Start bot\n"
-            "`/help` → Help menu\n"
-            "`/dashboard` → View saved accounts"
+            "/start → Start bot\n"
+            "/help → Help menu\n"
+            "/dashboard → View saved accounts"
         )
 
         reply_message(chat_id, reply)
